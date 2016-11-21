@@ -1,0 +1,48 @@
+;  File Name 
+;      UProcessor.DEF
+; LIBRARY         UProcessor
+EXPORTS
+UMemAlloc	@2
+UMemFree	@3
+UMemUsed	@4
+UPackDate	@5
+UPackTime	@6
+UUnpackDate	@7
+UIsLeap		@8
+UDayOfWeek	@9
+UCmpDates	@10
+UAddDate	@11
+USubDate	@12
+UCurDate	@13
+UClear		@14
+UAssign		@15
+USetStrA	@16
+USetStrW	@17
+USetInt		@18
+USetFloat	@19
+USetLogic	@20
+USetDate	@21
+UNewObject	@22
+UCompare	@23
+UIsTrue		@24
+UOperator	@25
+UTypeOf		@26
+USetCargo	@27
+UGetCargo	@28
+UStrFuncCall	@29
+UCallMethod	@30
+UGetItem	@31
+USetItem	@32
+URemoveItem	@33
+ULen		@34
+UGetRecFldName  @35
+UObjType	@36
+UFirstItem	@37
+UNextItem	@38
+UMemCompact	@39
+UObjData	@40
+UMemInfo	@41
+UExecute	@100
+UCompile	@101
+
+; End of file for UProcessor.DEF
